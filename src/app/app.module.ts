@@ -15,6 +15,7 @@ import { from } from 'rxjs';
 import { InicioComponent } from './inicio/inicio.component';
 import { TesteComponent } from './teste/teste.component';
 import {HashLocationStrategy, LocationStrategy} from '@angular/common';
+import { TemaComponent } from './tema/tema.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import {HashLocationStrategy, LocationStrategy} from '@angular/common';
     CadastrarComponent,
     EntrarComponent,
     InicioComponent,
-    TesteComponent
+    TesteComponent,
+    TemaComponent
   ],
   imports: [
     BrowserModule,
