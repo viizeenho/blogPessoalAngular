@@ -1,0 +1,150 @@
+<div class="container-fluid">
+  <div class="row">
+    <!-- Botão para acionar modal -->
+    <button type="button" class="btn btn-primary mr-4" data-toggle="modal" data-target="#ExemploModalCentralizado">
+      Cadastrar
+    </button>
+
+    <!-- Modal -->
+    <div class="modal fade" id="ExemploModalCentralizado" tabindex="-1" role="dialog"
+      aria-labelledby="TituloModalCentralizado" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content backgroundModal modal-personalizado">
+          <div class="d-flex justify-content-center align-items-center mt-5 mb-4">
+            <h5>CADASTRE SEU PRODUTO</h5>
+
+          </div>
+          <div class="modal-body">
+            <form>
+
+              <div class="" style=" margin-left: 30px;">
+                <p class="mb-2">QUAL É A CATEGORIA DO SEU PRODUTO</p>
+                <div class="custom-control custom-radio custom-control-inline">
+                  <input type="radio" id="quarto" name="quarto" class="custom-control-input">
+                  <label class="custom-control-label" for="quarto">Quarto</label>
+                </div>
+                <div class="custom-control custom-radio custom-control-inline">
+                  <input type="radio" id="sala" name="customRadioInline1" class="custom-control-input">
+                  <label class="custom-control-label" for="sala">Sala</label>
+                </div>
+                <div class="custom-control custom-radio custom-control-inline">
+                  <input type="radio" id="cozinha" name="cozinha" class="custom-control-input">
+                  <label class="custom-control-label" for="cozinha">Cozinha</label>
+                </div>
+                <div class="custom-control custom-radio custom-control-inline">
+                  <input type="radio" id="banheiro" name="banheiro" class="custom-control-input">
+                  <label class="custom-control-label" for="banheiro">Banheiro</label>
+                </div>
+                <div class="custom-control custom-radio custom-control-inline mb-2">
+                  <input type="radio" id="areaExterna" name="areaExterna" class="custom-control-input">
+                  <label class="custom-control-label" for="areaExterna">Área Externa</label>
+                </div>
+              </div>
+
+
+              <div class="form-group mt-4">
+                <label for="nome">Nome do produto:</label>
+                <input type="nome" class="form-control" id="nome">
+              </div>
+              <div class="form-group mt-5">
+                <label for="descricao">Descrição:</label>
+                <input type="descricao" class="form-control" id="descricao">
+              </div>
+              <div class="form-group mt-5">
+                <label for="preco">Preço:</label>
+                <input type="preco" class="form-control" id="preco">
+              </div>
+              <div class="form-group mt-5">
+                <label for="quantidade">Quantidade:</label>
+                <input type="quantidade" class="form-control" id="quantidade">
+              </div>
+              <div class="form-group mt-5">
+                <label for="foto">Link da foto:</label>
+                <input type="foto" class="form-control" id="foto">
+              </div>
+
+            </form>
+          </div>
+          <div class="d-flex justify-content-center mb-4 mt-4">
+            <button class="btn button-radius" type="button" data-dismiss="modal">Cancelar</button>
+            <button class="btn button-radius" type="button">Cadastrar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Editar Produto-->
+    <!-- Botão para acionar modal -->
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#edite">
+      Editar
+    </button>
+
+    <!-- Modal -->
+    <div class="modal fade" id="edite" tabindex="-1" role="dialog"
+      aria-labelledby="TituloModalCentralizado" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content backgroundModal modal-personalizado">
+          <div class="d-flex justify-content-center align-items-center mt-5 mb-4">
+            <h5>EDITE O SEU PRODUTO</h5>
+
+          </div>
+          <div class="modal-body">
+            <form>
+
+              <div class="" style=" margin-left: 30px;">
+                <p class="mb-2">QUAL É A CATEGORIA DO SEU PRODUTO</p>
+                <div class="custom-control custom-radio custom-control-inline">
+                  <input type="radio" id="quarto" name="quarto" class="custom-control-input">
+                  <label class="custom-control-label" for="quarto">Quarto</label>
+                </div>
+                <div class="custom-control custom-radio custom-control-inline">
+                  <input type="radio" id="sala" name="customRadioInline1" class="custom-control-input">
+                  <label class="custom-control-label" for="sala">Sala</label>
+                </div>
+                <div class="custom-control custom-radio custom-control-inline">
+                  <input type="radio" id="cozinha" name="cozinha" class="custom-control-input">
+                  <label class="custom-control-label" for="cozinha">Cozinha</label>
+                </div>
+                <div class="custom-control custom-radio custom-control-inline">
+                  <input type="radio" id="banheiro" name="banheiro" class="custom-control-input">
+                  <label class="custom-control-label" for="banheiro">Banheiro</label>
+                </div>
+                <div class="custom-control custom-radio custom-control-inline mb-2">
+                  <input type="radio" id="areaExterna" name="areaExterna" class="custom-control-input">
+                  <label class="custom-control-label" for="areaExterna">Área Externa</label>
+                </div>
+              </div>
+
+
+              <div class="form-group mt-4">
+                <label for="nome">Nome do produto:</label>
+                <input type="nome" class="form-control" id="nome">
+              </div>
+              <div class="form-group mt-5">
+                <label for="descricao">Descrição:</label>
+                <input type="descricao" class="form-control" id="descricao">
+              </div>
+              <div class="form-group mt-5">
+                <label for="preco">Preço:</label>
+                <input type="preco" class="form-control" id="preco">
+              </div>
+              <div class="form-group mt-5">
+                <label for="quantidade">Quantidade:</label>
+                <input type="quantidade" class="form-control" id="quantidade">
+              </div>
+              <div class="form-group mt-5">
+                <label for="foto">Link da foto:</label>
+                <input type="foto" class="form-control" id="foto">
+              </div>
+
+            </form>
+          </div>
+          <div class="d-flex justify-content-center mb-4 mt-4">
+            <button class="btn button-radius" type="button" data-dismiss="modal">Cancelar</button>
+            <button class="btn button-radius" type="button">Cadastrar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
